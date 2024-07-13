@@ -6,6 +6,7 @@
 }
 
 /* shared style */
+
 .btn-primary {
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -14,6 +15,13 @@
     padding: 21px 24px 21px 24px;
     margin-bottom: 50px;
 
+}
+
+.description-primary {
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    opacity: 0.7;
 }
 
 
@@ -32,9 +40,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 .banner-title {
@@ -47,9 +52,92 @@ header {
 }
 
 .banner-description {
-    font-size: 16px;
-    font-weight: 400;
     text-align: center;
     padding: 0px 300px 20px 300px;
+
+}
+
+/* main section style */
+
+main {
+    max-width: 1140px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.development {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px 80px 97px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.section-description {
+    margin-bottom: 48px;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+
+.dev-item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+    gap: 100px;
+
+}
+
+.linear-1 {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+
+.linear-2 {
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+
+/* .dev-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+} */
+
+.dev-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+
+}
+
+.dev-description {
+    text-align: left;
+}
+
+.dev-content input {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 20px 12px 20px;
+    color: rgba(13, 19, 33, 0.7);
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33, 0.7);
 
 }
