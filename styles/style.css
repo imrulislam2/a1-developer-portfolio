@@ -1,0 +1,55 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* shared style */
+.btn-primary {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    margin-bottom: 50px;
+
+}
+
+
+/* header style */
+
+header {
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+}
+
+
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 221px;
+    padding-right: 221px;
+
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 300px 20px 300px;
+
+}
