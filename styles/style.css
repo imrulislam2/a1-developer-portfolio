@@ -157,3 +157,54 @@ main {
     margin-bottom: 150px;
 
 }
+
+/* target section style */
+
+.target{
+    margin-bottom: 100px;
+}
+
+.target-content {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.target-items {
+    display: flex;
+    gap: 25px;
+
+}
+
+.target-item-1 {
+    width: 284px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-item-2 {
+    width: 284px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-item-3 {
+    width: 284px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.anchor{
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+    text-decoration: underline;
+}
