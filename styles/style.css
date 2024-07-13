@@ -141,3 +141,19 @@ main {
     border: 1px solid rgb(13, 19, 33, 0.7);
 
 }
+
+
+/* inspiration section style */
+
+.inspiration {
+    text-align: center;
+}
+
+.inspiration-video {
+    padding: 32px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    margin-bottom: 150px;
+
+}
